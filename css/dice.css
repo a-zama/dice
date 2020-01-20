@@ -1,0 +1,49 @@
+body {
+  background: #efefef;
+}
+
+#box {
+  width: 200px;
+  height: 200px;
+  /*background: #000000;*/
+  margin: 50px auto;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+#box:hover {
+  opacity: 0.9;
+}
+
+#box:active {
+  margin-top: 35px;
+}
+
+#p {
+  margin: 10px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+#reset {
+
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+img {
+  width: 200px;
+  height: 200px;
+
+}
+
+.a {
+  background: #090;
+  cursor: auto;
+  pointer-events: none;
+}
