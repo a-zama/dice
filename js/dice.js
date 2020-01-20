@@ -20,7 +20,7 @@
         const n = 1 + Math.floor(Math.random() * 6);
 
         switch (n){
-            case n:
+            case 1:
                 document.getElementById('result').src ="image/dice1.png";
                 p.textContent = `${n}でした！`;
                 break;
