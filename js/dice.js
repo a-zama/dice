@@ -28,32 +28,32 @@
         switch (dice_value){
             case 1:
                 document.getElementById('result').src ="image/dice1.png";
-                p.textContent = `${n}でした！`;
+                p.textContent = `${dice_value}でした！`;
                 break;
 
             case 2:
                 document.getElementById('result').src ="image/dice2.png";
-                p.textContent = `${n}でした！`;
+                p.textContent = `${dice_value}でした！`;
                 break;
 
             case 3:
                 document.getElementById('result').src ="image/dice3.png";
-                p.textContent = `${n}でした！`;
+                p.textContent = `${dice_value}でした！`;
                 break;
 
             case 4:
                 document.getElementById('result').src ="image/dice4.png";
-                p.textContent = `${n}でした！`;
+                p.textContent = `${dice_value}でした！`;
                 break;
 
             case 5:
                 document.getElementById('result').src ="image/dice5.png";
-                p.textContent = `${n}でした！`;
+                p.textContent = `${dice_value}でした！`;
                 break;
 
             case 6:
                 document.getElementById('result').src ="image/dice6.png";
-                p.textContent = `${n}でした！`;
+                p.textContent = `${dice_value}でした！`;
                 break;
                 
         }
